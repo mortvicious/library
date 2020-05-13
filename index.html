@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+     <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title></title>
+          <meta name="description" content="">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+          <header>
+               <h3>Project: Library</h3>
+               <p>by mort.vicious</p>
+             </header>
+
+             <div class="main-container">
+<p class="add-book-element">Add book to library</p>
+<p class="summary-el">0</p>
+<p class="hidden-error">Yo. C'mon, fill all the inputs</p>
+<button class="open-hidden-form-btn main-btn">Show</button>
+
+<div class="hidden-form-container">
+     <div class="input-title-cont">
+          <form onsubmit="return false;" class="main-form title-form">
+               <p class="title-par-el">Title: </p>
+               <input type="text" class="main-input input-title-el">
+          </form>
+     </div>
+     <div class="input-author-cont">
+          <form action="" class="main-form author-form">
+               <p class="author-par-el">Author: </p>
+               <input type="text" class="main-input input-author-el">
+          </form>
+     </div>
+     <div class="input-page-cont">
+          <form action="" class="main-form page-form">
+               <p class="pages-par-el">Pages: </p>
+               <input type="text" class="main-input input-page-el">
+          </form>
+          <div class="item">
+               <input class="conic check-read" type="checkbox"/>
+     </div>
+     <button class="add-book-btn main-btn">Add Book</button>
+             </div>
+             </div>
+
+          </div>     
+
+          <div class="main-info-container">
+          </div>
+          <script src="app.js"></script>
+     </body>
+</html>
