@@ -213,7 +213,7 @@ header h3 {
 }
 
 .func-btn-container .delete-btn {
-  background-image: url(/trash-alt-solid.svg);
+  background-image: url(https://mortvicious.github.io/library/trash-alt-solid.svg);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: right;
